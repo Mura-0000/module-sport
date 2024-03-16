@@ -11,22 +11,26 @@ padding: 16rem 0rem;
    background:
     url(../image/maraphon.png);
    height: 60rem;
-   padding: 30px 0px 30px 30px;
    position: relative;
+   padding: 30px 0px 30px 30px;
 }
 .main__row_block2{
    background:
     url(../image/Vebinar\ 1.png);
    height: 59.8rem;
-   padding: 30px 0px 30px 30px;
    position: relative;
+   padding: 30px 0px 30px 30px;
 }
 .main__row_block3{
    background: 
     url(../image/oiga.jpg);
    height: 59.8rem;
-   padding: 30px 0px 30px 30px;
    position: relative;
+   padding: 30px 0px 30px 30px;
+}
+.main__blur{
+   position: relative;
+   transition: .2s;
 }
 .main__row_block1,.main__row_block2,.main__row_block3{
    background-repeat: no-repeat;
@@ -43,7 +47,6 @@ padding: 16rem 0rem;
    width: 100%;
    right: 0rem;
 }
-
 .main__row_block2:before {
    content: '';
    display: block;
@@ -64,28 +67,10 @@ padding: 16rem 0rem;
    width: 100%;
    right: 0rem;
 }
-.main__row_block1:hover{
-   background:$yellow-bluer
-     url(../image/maraphon.png);
-}
-.main__row_block2:hover{
-   background:$yellow-bluer
-    url(../image/Vebinar\ 1.png);
-}
-.main__row_block3:hover{
-   background:$yellow-bluer
-    url(../image/oiga.jpg) ;
+.main__blur:hover  .main__bth__hover {
+   opacity: 1;
 }
 
-.main__row_block1:hover  .main__bth__hover {
-   opacity: 1;
-}
-.main__row_block2:hover  .main__bth__hover {
-   opacity: 1;
-}
-.main__row_block3:hover  .main__bth__hover {
-   opacity: 1;
-}
 span{
    font-weight: 700;
    font-size:  $font-size-paragraph;
@@ -94,11 +79,8 @@ span{
    opacity: 0.6;
    margin-bottom: 2rem;
 }
-.plus{
+.plus,.plus-olga{
  display: none;
 }
-.main__blur{
- position: relative;
- z-index: 1;
-}
+
 

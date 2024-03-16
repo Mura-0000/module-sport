@@ -1,0 +1,82 @@
+/*Mobal*/
+.burger {
+    width: 34px;
+    height: 22px;
+    background-image: url(../image/menu.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   margin: 0 auto;
+ }
+ 
+ #modal {
+    max-width: 587px;
+    height: 331px;
+    background-color: #F3F3F3;
+    position: absolute;
+    top: -500px;
+    left: 0;
+    right: 0;
+    margin: 20px auto 0;
+    transition: 0.5s;
+    padding: 29px 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    z-index: 99;
+ }
+ 
+ .burger-close {
+    width: 20px;
+    height: 19px;
+    background-color: transparent;
+    background-image: url(../image/cross.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+ }
+ 
+ .modal-header-nav {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+ }
+ 
+ .modal-header-nav a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2B3541;
+    gap: 40px;
+    text-decoration: none;
+    line-height: 3;
+    line-break: auto;
+ }
+ 
+ .modal-header-nav li ::after {
+    content: "";
+    height: 1px;
+    background: #2B3541;
+    border-radius: 1px;
+    display: block;
+    opacity: 100%;
+    margin: 10px 0;
+ }
+ 
+ .modal-social {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    top: 275px;
+    right: 31px;
+    transform: scale(1);
+    transition: .3s;
+ }
+ .modal-social a:hover{
+   transform:  scale(1.3);
+}

@@ -1,5 +1,5 @@
 
-.bth,.bth, .main__bth__hover,.btn-mobail{
+.bth,.bth, .main__bth__hover,.btn-mobail,.main__bth-mobail{
     display: block;
     background:$color-yellow;
     width: 26rem;
@@ -25,7 +25,7 @@
     position: absolute;
     right: 0;
     @extend %myCode;
-    top: 52.5rem;
+    top: 52.8rem;
  }
  .main__bth__hover{
    font-size: 16px;

@@ -23,12 +23,19 @@
          left: -21px;
          top: -1rem;
      }
+     .form{
+      text-align: center;
+     }
     .form-wrap {
       display: flex;
       justify-content: center;
       gap: 20px;
       margin-bottom: 2rem;
 
+   }
+   .align-items {
+      display: block;
+      margin: 0 auto;
    }
 //   input
    input {
@@ -48,8 +55,7 @@
       text-decoration: none;
    }
    .agreement{
-      display: block;
-      margin-left: 19rem;
+      margin-left: -40rem;
    }
    .agreement a {
       color: rgba(43, 53, 65, 0.50);
