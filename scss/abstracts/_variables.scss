@@ -1,0 +1,29 @@
+$color-white: #F3F3F3; 
+$dark-blue: #2B3541;
+$color-yellow: #FBF138;
+$gradient-yellow: linear-gradient(180deg, #fbf138 0%, #fdf9b6 100%);
+$color-brown:  linear-gradient(180deg, rgba(251, 241, 56, .3) 0%, rgba(253, 249, 182, 0) 100%);
+$yellow-bluer: linear-gradient(180.00deg, rgb(251, 241, 56),rgba(253, 249, 182, 0) 60%);
+$rgba: rgba(43, 53, 65, 1);
+$cursor:  rgba(43, 53, 65, 0.50);
+$box-shadow:  0 13px 24px 0 rgba(251, 241, 56, 0.3);
+//Типографика
+ $font-size-h1: clamp(4.8rem, 3vw, 2.5rem);
+ $font-size-h2: clamp( 4rem, 3vw, 2.6rem);
+ $font-size-h3:  clamp( 2.8rem, 3vw, 1.6rem);
+ $font-size-paragraph: clamp( 1.8rem, 3vw, 1.6rem);
+ $font-size-paragraph-1: 1.6rem;
+ $font-size-paragraph-2: 1.4rem;
+ $font-size-paragraph-3: 1.2rem;
+ $font-size-paragraph-4: 1rem;
+
+//  отступы
+
+$pag: 2rem 3rem;
+$pag-1: 1rem 2rem;
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+.main{
+padding: 16rem 0rem;
+}
+.main__row{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap:0px 20px
+}
+
+.main__row_block1{
+   background:
+    url(../image/maraphon.png);
+   height: 60rem;
+   padding: 30px 0px 30px 30px;
+   position: relative;
+}
+.main__row_block2{
+   background:
+    url(../image/Vebinar\ 1.png);
+   height: 59.8rem;
+   padding: 30px 0px 30px 30px;
+   position: relative;
+}
+.main__row_block3{
+   background: 
+    url(../image/oiga.jpg);
+   height: 59.8rem;
+   padding: 30px 0px 30px 30px;
+   position: relative;
+}
+.main__row_block1,.main__row_block2,.main__row_block3{
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.main__row_block1:before {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0px;
+   background: $color-brown;
+   height: 100%;
+   width: 100%;
+   right: 0rem;
+}
+
+.main__row_block2:before {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0px;
+   background: $color-brown;
+   height: 100%;
+   width: 100%;
+   right: 0rem;
+}
+.main__row_block3:before {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0px;
+   background:$color-brown;
+   height: 100%;
+   width: 100%;
+   right: 0rem;
+}
+.main__row_block1:hover{
+   background:$yellow-bluer
+     url(../image/maraphon.png);
+}
+.main__row_block2:hover{
+   background:$yellow-bluer
+    url(../image/Vebinar\ 1.png);
+}
+.main__row_block3:hover{
+   background:$yellow-bluer
+    url(../image/oiga.jpg) ;
+}
+
+.main__row_block1:hover  .main__bth__hover {
+   opacity: 1;
+}
+.main__row_block2:hover  .main__bth__hover {
+   opacity: 1;
+}
+.main__row_block3:hover  .main__bth__hover {
+   opacity: 1;
+}
+span{
+   font-weight: 700;
+   font-size:  $font-size-paragraph;
+   line-height: 150%;
+   color:$dark-blue;
+   opacity: 0.6;
+   margin-bottom: 2rem;
+}
+.plus{
+ display: none;
+}
+.main__blur{
+ position: relative;
+ z-index: 1;
+}
+

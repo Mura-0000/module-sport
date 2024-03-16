@@ -1,0 +1,180 @@
+.gray {
+    background:$color-white;
+    padding-top: 6rem;
+    padding-bottom: 6.2rem;
+    }
+    .gray__description{
+      display: inline;
+       font-size: $font-size-h2 ;
+      font-weight: 700;
+      position: relative;
+      z-index: 1;
+      }
+      .gray__description::before {
+         content: "";
+         width: 50px;
+         height: 50px;
+         background:$color-yellow;
+         box-shadow: $box-shadow;
+         border-radius: 100%;
+         display: inline-block;
+         position: absolute;
+         z-index: -1;
+         left: -21px;
+         top: -1rem;
+     }
+    .form-wrap {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 2rem;
+
+   }
+//   input
+   input {
+      outline: none;
+      padding: 19px 54px 18px 19px;
+      border: 0px;
+      font-size: 18px;
+      line-height: 150%;
+      color: rgba(43, 53, 65, 1);
+      width: 272px;
+      width: 41rem;
+   }
+
+   label {
+      font-size: 11px;
+      line-height: 150%;
+      text-decoration: none;
+   }
+   .agreement{
+      display: block;
+      margin-left: 19rem;
+   }
+   .agreement a {
+      color: rgba(43, 53, 65, 0.50);
+      text-decoration-line: underline;
+   }
+    
+   .agreement a:hover {
+      color: $dark-blue;
+      text-decoration-line: underline;
+   }
+   
+   .agreement2 {
+      display: none;
+   }
+   
+   .checkbox:checked,
+   .checkbox:not(:checked) {
+      position: absolute;
+      left: -9999px;
+   }
+   
+   .checkbox:checked+label,
+   .checkbox:not(:checked)+label {
+      position: relative;
+      padding-left: 31px;
+      cursor: pointer;
+      color: $cursor;
+   
+   }
+   
+   /* ÃÂ¡Ã‘â€šÃÂ¸ÃÂ»ÃÂ¸ ÃÂ´ÃÂ»Ã‘Â ÃÂ¿Ã‘ÂÃÂµÃÂ²ÃÂ´ÃÂ¾Ã‘ÂÃÂ»ÃÂµÃÂ¼ÃÂµÃÂ½Ã‘â€šÃÂ° before Ã‘Â Ã‘â€žÃÂ¾ÃÂ½ÃÂ¾ÃÂ¼ ÃÂ¸ ÃÂ¾ÃÂ±ÃÂ²ÃÂ¾ÃÂ´ÃÂºÃÂ¾ÃÂ¹, ÃÂºÃÂ¾ÃÂ³ÃÂ´ÃÂ° ÃÂ¿Ã‘Æ’ÃÂ½ÃÂºÃ‘â€š ÃÂ°ÃÂºÃ‘â€šÃÂ¸ÃÂ²ÃÂµÃÂ½ */
+   .checkbox:checked+label::before {
+      content: '';
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 7px;
+      top: calc(58% - 11px);
+      background-color: #2B3541;
+      border-radius: 2px;
+      border: 2px solid #2B3541;
+   }
+   
+   /* ÃÂ¡Ã‘â€šÃÂ¸ÃÂ»ÃÂ¸ ÃÂ´ÃÂ»Ã‘Â ÃÂ¿Ã‘ÂÃÂµÃÂ²ÃÂ´ÃÂ¾Ã‘ÂÃÂ»ÃÂµÃÂ¼ÃÂµÃÂ½Ã‘â€šÃÂ° after Ã‘Â ÃÂ¸ÃÂ·ÃÂ¾ÃÂ±Ã‘â‚¬ÃÂ°ÃÂ¶ÃÂµÃÂ½ÃÂ¸ÃÂµÃÂ¼, ÃÂºÃÂ¾ÃÂ³ÃÂ´ÃÂ° ÃÂ¿Ã‘Æ’ÃÂ½ÃÂºÃ‘â€š ÃÂ°ÃÂºÃ‘â€šÃÂ¸ÃÂ²ÃÂµÃÂ½ */
+   .checkbox:checked+label::after {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      transition: all .2s ease;
+      opacity: 1;
+      left: 10px;
+      top: calc(50% - 6px);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/2048px-White_check.svg.png);
+   }
+   
+   /* ÃÂ¡Ã‘â€šÃÂ¸ÃÂ»ÃÂ¸ ÃÂ´ÃÂ»Ã‘Â ÃÂ¿Ã‘ÂÃÂµÃÂ²ÃÂ´ÃÂ¾Ã‘ÂÃÂ»ÃÂµÃÂ¼ÃÂµÃÂ½Ã‘â€šÃÂ° before Ã‘Â Ã‘â€žÃÂ¾ÃÂ½ÃÂ¾ÃÂ¼ ÃÂ¸ ÃÂ¾ÃÂ±ÃÂ²ÃÂ¾ÃÂ´ÃÂºÃÂ¾ÃÂ¹, ÃÂºÃÂ¾ÃÂ³ÃÂ´ÃÂ° ÃÂ¿Ã‘Æ’ÃÂ½ÃÂºÃ‘â€š ÃÂÃâ€¢ ÃÂ°ÃÂºÃ‘â€šÃÂ¸ÃÂ²ÃÂµÃÂ½ */
+   .checkbox:not(:checked)+label::before {
+      content: '';
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      left: 6px;
+      top: calc(39% - 10px);
+      
+      background-color: transparent;
+      border-radius: 2px;
+      border: 2px solid #2B3541;
+   }
+   
+   /* ÃÂ¡Ã‘â€šÃÂ¸ÃÂ»ÃÂ¸ ÃÂ´ÃÂ»Ã‘Â ÃÂ¿Ã‘ÂÃÂµÃÂ²ÃÂ´ÃÂ¾Ã‘ÂÃÂ»ÃÂµÃÂ¼ÃÂµÃÂ½Ã‘â€šÃÂ° after Ã‘Â ÃÂ¸ÃÂ·ÃÂ¾ÃÂ±Ã‘â‚¬ÃÂ°ÃÂ¶ÃÂµÃÂ½ÃÂ¸ÃÂµÃÂ¼, ÃÂºÃÂ¾ÃÂ³ÃÂ´ÃÂ° ÃÂ¿Ã‘Æ’ÃÂ½ÃÂºÃ‘â€š ÃÂÃâ€¢ ÃÂ°ÃÂºÃ‘â€šÃÂ¸ÃÂ²ÃÂµÃÂ½ */
+   .checkbox:not(:checked)+label::after {
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      transition: all .2s ease;
+      opacity: 0;
+      left: 4px;
+      top: calc(50% - 6px);
+      background-position: 0 -12px;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/2048px-White_check.svg.png);
+   }
+   
+   .radio:checked+label::before {
+      border-radius: 100%;
+   }
+   
+   .features-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 55px;
+   }
+   
+   .features-title {
+      margin-top: 160px;
+      margin-bottom: 20px;
+      color: rgba(43, 53, 65, 1);
+      padding-top: 0px;
+   }
+   
+   .features-text {
+      font-size: 18px;
+      line-height: 150%;
+      color: #2B3541;
+      width: 483px;
+      margin-bottom: 53px;
+   }
+   
+   .advantages-mobil {
+      display: none;
+   }
+   ul.advantages-item {
+      display: flex;
+      align-items: center;
+      gap: 87px;
+      list-style-type: none;
+      padding: 0px;
+      margin-top: -6px;
+      font-size: 18px;
+      line-height: 140%;
+   }
+  

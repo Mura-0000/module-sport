@@ -1,0 +1,108 @@
+.footer{
+    margin-top: 17rem;
+    background: $color-white;
+    padding-top: 4.5rem;
+    padding-bottom: 2.1rem;
+    }
+    .footer-box{
+       display: flex;
+       justify-content: space-between;
+    }
+    .footer-info a{
+        @extend %myCoder;
+    }
+    .footer_nav{
+        display: flex;
+        gap: 5.4rem;
+        list-style-type: none;
+        position: relative;
+        right: 14rem;
+       }
+       .footer_nav a{
+        right: 0 ;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size:  $font-size-paragraph;
+        line-height: 150%;
+        color: #2B3541;
+        text-decoration: none;  
+       }
+       .footer_nav a::after{
+        content: "";
+       height: 1px;
+       width: 100%;
+       background: $dark-blue;
+       border-radius: 1px;
+       display: block;
+       background: transparent;
+        }
+       
+        .footer_nav  a:hover::after{
+        background: $dark-blue;
+       }
+       .footer_nav{
+           display: flex;
+           gap: 3rem;
+           transform: scale(1);
+           transition: .3s;
+           position: relative;
+           left: 0rem;
+        }
+      .footer_nav a:hover{
+           transform:  scale(1.3);
+        }
+
+  
+   
+    .footer-info::before {
+        content: "";
+        width: 25px;
+        height: 25px;
+        background: $color-yellow;
+        box-shadow:$box-shadow;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+        left: 14px;
+        top: -10px;
+    }
+    .footer-info{
+    position: relative;
+    top: 1rem;
+    }
+    .footer__icon{
+        top: -0.7rem;
+    }
+    .footer-row{
+      padding-top: 3.1rem;
+    }
+    .footer__text{
+      font-size:  $font-size-paragraph-2;
+      font-weight: 400;
+      opacity: 0.3;
+    }
+    .e-mail a{
+        text-decoration: none;
+        font-size: $font-size-paragraph-2;
+        color:$dark-blue;
+        opacity: 1;
+    }
+    .e-mail a::after{
+        content: "";
+       height: 1px;
+       width: 100%;
+       background: $dark-blue;
+       border-radius: 1px;
+       display: block;
+       background: transparent;
+        }
+        .e-mail  a:hover::after{
+        background: $dark-blue;
+       }
+       .footer_icon-mobail{
+        display: none;
+       }
+       .footer__item-mobaol{
+  display: none;
+       }

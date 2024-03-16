@@ -1,0 +1,10 @@
+@mixin style-link($dark-blue){
+    @include style-link($color-gray); 
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $dark-blue;
+    background: $color-yellow;
+    text-align: center;
+}
+  

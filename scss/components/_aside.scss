@@ -1,0 +1,41 @@
+.offer__aside{
+  margin-top: 0px;
+}
+.wrap{
+ gap:9.2rem;
+}
+.offer__aside{
+ padding-top: 0rem;
+ max-width: 47rem;
+}
+.trainer{
+    position: relative;
+    z-index: 0;
+}
+.trainer-img{
+ max-width: 100%;
+
+}
+.trainer:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(251, 241, 56, 0.3) 0%, rgba(253, 249, 182, 0) 100%);
+    height: 30%;
+    width: 100%;
+    right: 0rem;
+    z-index: 1;
+ }
+ .main__row__aside{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:0px 4rem
+ }
+ .paragraff{
+    opacity: 0.6;
+    font-size: $font-size-paragraph;
+    color: $dark-blue;
+    line-height: 150%;
+    padding-top: 2rem;
+ }

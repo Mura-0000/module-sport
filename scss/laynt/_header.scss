@@ -1,0 +1,49 @@
+.header,.header_footer{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 5rem;
+   padding-bottom: 2.7rem;
+
+     &__nav{
+      display: flex;
+      gap: 5.4rem;
+      list-style-type: none;
+      position: relative;
+      right: 14rem;
+     }
+     &__nav a{
+      right: 0 ;
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size:  $font-size-paragraph;
+      line-height: 150%;
+      color: #2B3541;
+      text-decoration: none;  
+     }
+     &__nav a::after{
+      content: "";
+     height: 1px;
+     width: 100%;
+     background: $dark-blue;
+     border-radius: 1px;
+     display: block;
+     background: transparent;
+      }
+     
+     &__nav  a:hover::after{
+      background: $dark-blue;
+     }
+      &__icon{
+         display: flex;
+         gap: 3rem;
+         transform: scale(1);
+         transition: .3s;
+         position: relative;
+         left: 0rem;
+      }
+      &__icon a:hover{
+         transform:  scale(1.3);
+      }
+   }
+
+   

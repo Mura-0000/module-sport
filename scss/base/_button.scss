@@ -1,0 +1,52 @@
+
+.bth,.bth, .main__bth__hover,.btn-mobail{
+    display: block;
+    background:$color-yellow;
+    width: 26rem;
+    color:$dark-blue;
+    @extend %myCode;
+}
+.btn__mobail{
+ display: none;
+}
+.form-email-bth__modil{
+   display: none;
+}
+
+.form-email-modil {
+   display: none;
+}
+ .main__bth{
+    width: 12.6rem;
+    padding: $pag-1;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: none;
+    position: absolute;
+    right: 0;
+    @extend %myCode;
+    top: 52.5rem;
+ }
+ .main__bth__hover{
+   font-size: 16px;
+    width: 22rem;
+    margin-bottom: 32rem;
+    background:$dark-blue;
+    color:$color-yellow;
+    @extend %myCode;
+    opacity: 0;
+    
+ }
+.bth:hover{
+ background: $dark-blue;
+ color: $color-yellow;
+}
+
+     
+        
+  
+ 
+
+
+
+    

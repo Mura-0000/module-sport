@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>sport</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="styles/main.css"> -->
+   <link rel="stylesheet" href="scss/stail.css">
+   <link rel="stylesheet" href="styles/normalize.css">
+   <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/android-chrome-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+   <header>
+   <div class="container">
+      <div class="header">
+     <div class="header_item">
+       <img src="image/logo.svg" alt="image/logo">
+     </div>
+     <ul class="header__nav">
+      <li><a href="#">Мероприятия</a></li>
+      <li><a href="#">Расписание</a></li>
+      <li><a href="#">О компании</a></li>
+     </ul>
+      <div class="header__icon">
+         <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.8" clip-path="url(#clip0_135_144)">
+            <path d="M4.39453 30H25.6055C28.0286 30 30 28.0286 30 25.6055V4.39453C30 1.97136 28.0286 0 25.6055 0H4.39453C1.97136 0 0 1.97136 0 4.39453V25.6055C0 28.0286 1.97136 30 4.39453 30ZM1.75781 4.39453C1.75781 2.94067 2.94067 1.75781 4.39453 1.75781H25.6055C27.0593 1.75781 28.2422 2.94067 28.2422 4.39453V25.6055C28.2422 27.0593 27.0593 28.2422 25.6055 28.2422H4.39453C2.94067 28.2422 1.75781 27.0593 1.75781 25.6055V4.39453Z" fill="#2B3541"/>
+            <path d="M15 22.9102C19.3616 22.9102 22.9102 19.3616 22.9102 15C22.9102 10.6384 19.3616 7.08984 15 7.08984C10.6384 7.08984 7.08984 10.6384 7.08984 15C7.08984 19.3616 10.6384 22.9102 15 22.9102ZM15 8.84766C18.3925 8.84766 21.1523 11.6075 21.1523 15C21.1523 18.3925 18.3925 21.1523 15 21.1523C11.6075 21.1523 8.84766 18.3925 8.84766 15C8.84766 11.6075 11.6075 8.84766 15 8.84766Z" fill="#2B3541"/>
+            <path d="M23.7891 8.84766C25.2429 8.84766 26.4258 7.66479 26.4258 6.21094C26.4258 4.75708 25.2429 3.57422 23.7891 3.57422C22.3352 3.57422 21.1523 4.75708 21.1523 6.21094C21.1523 7.66479 22.3352 8.84766 23.7891 8.84766ZM23.7891 5.33203C24.2736 5.33203 24.668 5.72639 24.668 6.21094C24.668 6.69548 24.2736 7.08984 23.7891 7.08984C23.3045 7.08984 22.9102 6.69548 22.9102 6.21094C22.9102 5.72639 23.3045 5.33203 23.7891 5.33203Z" fill="#2B3541"/>
+            </g>
+            <defs>
+            <rect width="30" height="30" fill="white"/>
+            </defs>
+            </svg>
+            </a>
+            <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <g opacity="0.8" clip-path="url(#clip0_135_142)">
+               <path d="M4.39453 30H14.1797V19.3359H10.6641V15.8203H14.1797V11.4258C14.1797 9.00261 16.151 7.03125 18.5742 7.03125H22.9688V10.5469H19.4531C18.4838 10.5469 17.6953 11.3354 17.6953 12.3047V15.8203H22.8101L22.2242 19.3359H17.6953V30H25.6055C28.0286 30 30 28.0286 30 25.6055V4.39453C30 1.97136 28.0286 0 25.6055 0H4.39453C1.97136 0 0 1.97136 0 4.39453V25.6055C0 28.0286 1.97136 30 4.39453 30ZM1.75781 4.39453C1.75781 2.94067 2.94067 1.75781 4.39453 1.75781H25.6055C27.0593 1.75781 28.2422 2.94067 28.2422 4.39453V25.6055C28.2422 27.0593 27.0593 28.2422 25.6055 28.2422H19.4531V21.0938H23.7133L24.8852 14.0625H19.4531V12.3047H24.7266V5.27344H18.5742C15.1817 5.27344 12.4219 8.03329 12.4219 11.4258V14.0625H8.90625V21.0938H12.4219V28.2422H4.39453C2.94067 28.2422 1.75781 27.0593 1.75781 25.6055V4.39453Z" fill="#2B3541"/>
+               </g>
+               <defs>
+               <rect width="30" height="30" fill="white"/>
+               </defs>
+               </svg></a>
+      </div>
+   </div>
+  </div>
+</header>
+<!-- about -->
+<section class="adout">
+   <div class="container">
+      <div class="wrapper">
+         <div class="offer">
+            <h1 class="title">онлайн тренировки любой сложности</h1>
+            <h2 class="description">&gt; 15 тренировок</h2>
+            <div class="hero">
+            <p class="text">в области спортивной физиологии и нутрициологии</p>
+            <a href="#" class="bth">Узнать подробнее</a>
+         </div>
+         <div class="arron">
+             <a href="#" class="arron_cluk"></a>
+           </div>
+         </div>
+         <div class="box">
+            <div class="box__Rectangle"></div>
+            <img src="image/girl.png" class="img" alt="image/arrow.svg">
+         
+         </div>
+      </div>
+   </div>
+
+</section>
+<section class="main">
+   <div class="container">
+      <div class="margin-bottom-40px">
+      <h2 >Ближайшие события</h2>
+   </div>
+      <div class="main__row">
+         <!-- block1 -->
+         <div class="main__row_block1">
+             <div class="main__blur">
+            <span>29.06 - 4.07</span>
+            <h3>Марафон выносливости</h3>
+            <a href="#" class="main__bth__hover">записаться</a>
+            <a href="#" class="bth main__bth">марафон</a>
+            <img src="image/plus.svg" class="plus" alt="plus">
+         </div>
+      </div>
+         <!-- block2 -->
+         <div class="main__row_block2">
+            <div class="main__blur">
+            <span>9.07</span>
+            <h3>Как стать тренером?</h3>
+            <a href="#" class="main__bth__hover">записаться</a>
+            <a href="#" class="bth main__bth">марафон</a>
+            <img src="image/plus.svg" class="plus" alt="plus">
+         </div>
+         </div>
+         <!-- block3 -->
+         <div class="main__row_block3">
+            <div class="main__blur">
+            <span>15.07</span>
+            <h3>Йога, как стиль жизни</h3>
+            <a href="#" class="main__bth__hover">записаться</a>
+            <a href="#" class="bth main__bth">марафон</a>
+            <img src="image/plus.svg" class="plus" alt="plus">
+         </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- main___grid -->
+<section class="section">
+      <div class="container">
+         <div class="main_flex margin-bottom-40px">
+               <h2 class="title_main_grig">Расписание <br>тренировок</h2>
+               <p class="text__paragraph">22-28 июня</p>
+            
+         </div>
+         <div class="main__grid">
+            <div class="main__grid__item">
+               <p class="text text_main">22 июня, 10:00</p>
+               <div class="main__box">
+                  <img class="main-img margin-bottom-40px"  src="image/body.svg"  alt="body" >
+                  <h4 class="main_title_grud">Функциональный тренинг</h4>
+               </div>
+            </div>
+            <div class="main__grid__item">
+               <p class="text text_main">24 июня, 10:00</p>
+               <div class="main__box">
+                  <img class="main-img margin-bottom-40px" src="image/bottle.svg" alt="bottle">
+                  <h4 class="main_title_grud">Body sculpt</h4>
+               </div>
+            </div>
+            <div class="main__grid__item">
+               <p class="text text_main">26 июня, 11:00</p>
+               <div class="main__box">
+                  <img class="main-img  margin-bottom-40px" src="image/dumbbell.svg" alt="dumbbell">
+                  <h4 class="main_title_grud">L.A.B.</h4>
+               </div>
+            </div>
+            <div class="main__grid__item">
+               <p class="text text_main">23 июня, 11:00</p>
+               <div class="main__box">
+                  <img class="main-img  margin-bottom-40px" src="image/jump.svg" alt="jump">
+                  <h4 class="main_title_grud">Силовой микс</h4>
+               </div>
+            </div>
+            <div class="main__grid__item">
+               <p class="text text_main">25 июня, 11:00</p>
+               <div class="main__box">
+                  <img class="main-img  margin-bottom-40px" src="image/heart.svg" alt="heart">
+                  <h4 class="main_title_grud">Дыхательные практики</h4>
+               </div>
+            </div>
+            <div class="main__grid__item">
+               <p class="text text_main">27 июня, 10:00</p>
+               <div class="main__box">
+                  <img class="main-img  margin-bottom-40px" src="image/weight.svg" alt="weight">
+                  <h4 class="main_title_grud">Комплексная разминка</h4>
+               </div>
+            </div>
+         </div>
+      </div>
+</section>
+<!-- form -->
+<section class="gray">
+   <div class="container">
+      <div class="form">
+      <div class="text-align-center margin-bottom-40px">
+         <h2 class="description gray__description  ">Подпишитесь на рассылку</h2>
+      </div>
+       <div class="align-items ">
+        
+      <form action="#" class="form ">
+       
+         <div class="form-wrap ">
+            <input type="email" name="email" placeholder="Ваш e-mail" class="form-email" required>
+            <div class="agreement2">
+               <label for="01">Согласен с обработкой <a href="image/галоччка.svg"
+                     target="_blank">персональных
+                     данных</a></label>
+            </div>
+            <input type="submit" name="submit" id="submit" value="Подписаться" class="bth form-email-btn">
+         </div>
+         <div class="agreement">
+            <input type="checkbox" id="01" class="checkbox">
+            <label for="01">Согласен с обработкой <a href="https://annblok.ru/workshop"
+                  target="_blank">персональных данных</a></label>
+            <input type="submit" name="submit" id="#" value="Подписаться" class="bth  form-email-bth__modil">
+         </div>
+      </form>
+   </div>
+   </div>
+</div>
+</section> 
+<section class="aside padding-top-160px">
+   <div class="container">
+      <div class="wrapper wrap margin-bottom_40px">
+         <div class="offer offer__aside">
+            <h2 class="description description__aside margin-bottom-16px">О компании</h2>
+            <p class="text text__aside">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки.</p>
+               <a href="#" class="bth bth-aside">Записаться</a>
+      </div>
+      <div class="trainer">
+      <img src="image/trainer.jpg" class="trainer-img" alt="trainer">
+   </div>
+   </div>
+   <div class=" main__row__aside">
+      <div class="row__aside">
+         <h5>Экономия времени </h5>
+         <p class="paragraff"> Не нужно тратить время на дорогу</p>
+      </div>
+      <div class="row__aside">
+         <h5>Индивидуальный подход</h5>
+         <p class="paragraff"> Внимание тренера пренадлежит только вам</p>
+      </div>
+      <div class="row__aside">
+         <h5>Экономия денег</h5>
+         <p class="paragraff">Средняя цена одной тренировки - 700₽</p>
+      </div>
+      <div class="row__aside">
+         <h5>Опытный персонал</h5>
+         <p class="paragraff"> Стаж работы у наших тренеров от 5 лет</p>
+      </div>
+   </div>
+</div>
+</section> 
+<!-- footer -->
+<footer class="footer">
+  <div class="container">
+   <div class="footer__item footer__item-mobaol">
+      <img src="image/logo.svg" alt="image/logo">
+    </div>
+   <div class="footer-box">
+      
+   <div class="footer__item">
+      <img src="image/logo.svg" alt="image/logo">
+    </div>
+    <ul class="footer_nav">
+     <li><a href="#">Мероприятия</a></li>
+     <li><a href="#">Расписание</a></li>
+     <li><a href="#">О компании</a></li>
+    </ul>
+
+ 
+     <div class="header__icon footer__icon">
+      <div class="footer-info">
+         <a href="#">info@freefit.com</a>
+      </div>
+        <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <g opacity="0.8" clip-path="url(#clip0_135_144)">
+           <path d="M4.39453 30H25.6055C28.0286 30 30 28.0286 30 25.6055V4.39453C30 1.97136 28.0286 0 25.6055 0H4.39453C1.97136 0 0 1.97136 0 4.39453V25.6055C0 28.0286 1.97136 30 4.39453 30ZM1.75781 4.39453C1.75781 2.94067 2.94067 1.75781 4.39453 1.75781H25.6055C27.0593 1.75781 28.2422 2.94067 28.2422 4.39453V25.6055C28.2422 27.0593 27.0593 28.2422 25.6055 28.2422H4.39453C2.94067 28.2422 1.75781 27.0593 1.75781 25.6055V4.39453Z" fill="#2B3541"/>
+           <path d="M15 22.9102C19.3616 22.9102 22.9102 19.3616 22.9102 15C22.9102 10.6384 19.3616 7.08984 15 7.08984C10.6384 7.08984 7.08984 10.6384 7.08984 15C7.08984 19.3616 10.6384 22.9102 15 22.9102ZM15 8.84766C18.3925 8.84766 21.1523 11.6075 21.1523 15C21.1523 18.3925 18.3925 21.1523 15 21.1523C11.6075 21.1523 8.84766 18.3925 8.84766 15C8.84766 11.6075 11.6075 8.84766 15 8.84766Z" fill="#2B3541"/>
+           <path d="M23.7891 8.84766C25.2429 8.84766 26.4258 7.66479 26.4258 6.21094C26.4258 4.75708 25.2429 3.57422 23.7891 3.57422C22.3352 3.57422 21.1523 4.75708 21.1523 6.21094C21.1523 7.66479 22.3352 8.84766 23.7891 8.84766ZM23.7891 5.33203C24.2736 5.33203 24.668 5.72639 24.668 6.21094C24.668 6.69548 24.2736 7.08984 23.7891 7.08984C23.3045 7.08984 22.9102 6.69548 22.9102 6.21094C22.9102 5.72639 23.3045 5.33203 23.7891 5.33203Z" fill="#2B3541"/>
+           </g>
+           <defs>
+           <rect width="30" height="30" fill="white"/>
+           </defs>
+           </svg>
+           </a>
+           <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.8" clip-path="url(#clip0_135_142)">
+              <path d="M4.39453 30H14.1797V19.3359H10.6641V15.8203H14.1797V11.4258C14.1797 9.00261 16.151 7.03125 18.5742 7.03125H22.9688V10.5469H19.4531C18.4838 10.5469 17.6953 11.3354 17.6953 12.3047V15.8203H22.8101L22.2242 19.3359H17.6953V30H25.6055C28.0286 30 30 28.0286 30 25.6055V4.39453C30 1.97136 28.0286 0 25.6055 0H4.39453C1.97136 0 0 1.97136 0 4.39453V25.6055C0 28.0286 1.97136 30 4.39453 30ZM1.75781 4.39453C1.75781 2.94067 2.94067 1.75781 4.39453 1.75781H25.6055C27.0593 1.75781 28.2422 2.94067 28.2422 4.39453V25.6055C28.2422 27.0593 27.0593 28.2422 25.6055 28.2422H19.4531V21.0938H23.7133L24.8852 14.0625H19.4531V12.3047H24.7266V5.27344H18.5742C15.1817 5.27344 12.4219 8.03329 12.4219 11.4258V14.0625H8.90625V21.0938H12.4219V28.2422H4.39453C2.94067 28.2422 1.75781 27.0593 1.75781 25.6055V4.39453Z" fill="#2B3541"/>
+              </g>
+              <defs>
+              <rect width="30" height="30" fill="white"/>
+              </defs>
+              </svg></a>
+         </div>
+     </div>
+        <!-- mobail -->
+        <div class="footer__main">
+        <div class="header__icon footer__icon footer_icon-mobail">
+         <div class="footer-info">
+            <a href="#">info@freefit.com</a>
+         </div>
+         <div class="footer__last">
+           <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.8" clip-path="url(#clip0_135_144)">
+              <path d="M4.39453 30H25.6055C28.0286 30 30 28.0286 30 25.6055V4.39453C30 1.97136 28.0286 0 25.6055 0H4.39453C1.97136 0 0 1.97136 0 4.39453V25.6055C0 28.0286 1.97136 30 4.39453 30ZM1.75781 4.39453C1.75781 2.94067 2.94067 1.75781 4.39453 1.75781H25.6055C27.0593 1.75781 28.2422 2.94067 28.2422 4.39453V25.6055C28.2422 27.0593 27.0593 28.2422 25.6055 28.2422H4.39453C2.94067 28.2422 1.75781 27.0593 1.75781 25.6055V4.39453Z" fill="#2B3541"/>
+              <path d="M15 22.9102C19.3616 22.9102 22.9102 19.3616 22.9102 15C22.9102 10.6384 19.3616 7.08984 15 7.08984C10.6384 7.08984 7.08984 10.6384 7.08984 15C7.08984 19.3616 10.6384 22.9102 15 22.9102ZM15 8.84766C18.3925 8.84766 21.1523 11.6075 21.1523 15C21.1523 18.3925 18.3925 21.1523 15 21.1523C11.6075 21.1523 8.84766 18.3925 8.84766 15C8.84766 11.6075 11.6075 8.84766 15 8.84766Z" fill="#2B3541"/>
+              <path d="M23.7891 8.84766C25.2429 8.84766 26.4258 7.66479 26.4258 6.21094C26.4258 4.75708 25.2429 3.57422 23.7891 3.57422C22.3352 3.57422 21.1523 4.75708 21.1523 6.21094C21.1523 7.66479 22.3352 8.84766 23.7891 8.84766ZM23.7891 5.33203C24.2736 5.33203 24.668 5.72639 24.668 6.21094C24.668 6.69548 24.2736 7.08984 23.7891 7.08984C23.3045 7.08984 22.9102 6.69548 22.9102 6.21094C22.9102 5.72639 23.3045 5.33203 23.7891 5.33203Z" fill="#2B3541"/>
+              </g>
+              <defs>
+              <rect width="30" height="30" fill="white"/>
+              </defs>
+              </svg>
+              </a>
+              <a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <g opacity="0.8" clip-path="url(#clip0_135_142)">
+                 <path d="M4.39453 30H14.1797V19.3359H10.6641V15.8203H14.1797V11.4258C14.1797 9.00261 16.151 7.03125 18.5742 7.03125H22.9688V10.5469H19.4531C18.4838 10.5469 17.6953 11.3354 17.6953 12.3047V15.8203H22.8101L22.2242 19.3359H17.6953V30H25.6055C28.0286 30 30 28.0286 30 25.6055V4.39453C30 1.97136 28.0286 0 25.6055 0H4.39453C1.97136 0 0 1.97136 0 4.39453V25.6055C0 28.0286 1.97136 30 4.39453 30ZM1.75781 4.39453C1.75781 2.94067 2.94067 1.75781 4.39453 1.75781H25.6055C27.0593 1.75781 28.2422 2.94067 28.2422 4.39453V25.6055C28.2422 27.0593 27.0593 28.2422 25.6055 28.2422H19.4531V21.0938H23.7133L24.8852 14.0625H19.4531V12.3047H24.7266V5.27344H18.5742C15.1817 5.27344 12.4219 8.03329 12.4219 11.4258V14.0625H8.90625V21.0938H12.4219V28.2422H4.39453C2.94067 28.2422 1.75781 27.0593 1.75781 25.6055V4.39453Z" fill="#2B3541"/>
+                 </g>
+                 <defs>
+                 <rect width="30" height="30" fill="white"/>
+                 </defs>
+                 </svg></a>
+            </div>
+         </div>
+      </div>
+    <div class="footer-box footer-row">
+      <div class="footer-itemm">
+       <p class="footer__text"> © 2022, Все права защищены </p>
+             </div>
+      <div class="footer-itemm">
+         <div class="footer__text e-mail">
+         <a href="https://frontendblok.com/" target="_blank" class="footer__text e-mail">Сделано в рамках курса учебной платформы Annblok</a>
+      </div>
+         </div>
+    </div>
+   </div>
+</footer> 
+</body>
+
+</html>

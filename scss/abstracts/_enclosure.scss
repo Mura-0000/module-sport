@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+ }
+ body {
+    font-family: 'Montserrat', sans-serif;
+ }
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+ }
+ .container{
+    max-width: 1143px;
+    margin: 0 auto;
+    padding: 0 10px;
+ }
+ %myCode{
+   text-align: center;
+   font-weight: 700;
+   font-size: 16px;
+   padding: $pag;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   text-decoration: none;
+   transform: scale(1);
+   transition: .3s;
+ }
+ %myCoder{
+   font-weight: 700;
+   font-size:  $font-size-paragraph-2;
+   padding: $pag;
+   text-decoration: none;
+   transform: scale(1);
+   transition: .3s;
+   color:$dark-blue;
+ }
+ 

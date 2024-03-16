@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 106%;
+    height: 84rem;
+   }
+   .offer{
+    padding-top: 19.3rem;
+   }
+ 
+   .arron{
+      margin-top: 18rem;
+   }
+   .arron:hover{
+      border-radius: 60%;
+      width: 52px;
+      height: 52px;
+      background-color: $color-yellow;
+   }
+   .arron_cluk{
+    display: block;
+    background: url(../image/arrow.svg);
+    width: 52px;
+    height: 55px;
+    transform: scale(1);
+    transition: .3s;
+ }
+ .box{
+   position: absolute;
+   left: 33rem;
+   top: 4rem;
+  }
+  .box__Rectangle{
+   position: absolute;
+   background: linear-gradient(90deg, #fbf138 0%, rgba(253, 249, 182, 0.45) 100%);
+   opacity: 0.2;
+   width: 464px;
+   height: 850px;
+   left: 35rem;
+   z-index: -1;
+}
+.hero,.hero__hero__aside{
+   margin-left: 9rem;
+   width: 30rem;
+  }
+  
