@@ -11,61 +11,34 @@ padding: 16rem 0rem;
    background:
     url(../image/maraphon.png);
    height: 60rem;
-   position: relative;
-   padding: 30px 0px 30px 30px;
+
 }
 .main__row_block2{
    background:
     url(../image/Vebinar\ 1.png);
    height: 59.8rem;
-   position: relative;
-   padding: 30px 0px 30px 30px;
+
 }
 .main__row_block3{
    background: 
     url(../image/oiga.jpg);
    height: 59.8rem;
-   position: relative;
-   padding: 30px 0px 30px 30px;
-}
-.main__blur{
-   position: relative;
-   transition: .2s;
 }
 .main__row_block1,.main__row_block2,.main__row_block3{
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
 }
-.main__row_block1:before {
-   content: '';
-   display: block;
-   position: absolute;
-   top: 0px;
-   background: $color-brown;
-   height: 100%;
+.main__blur{
    width: 100%;
-   right: 0rem;
-}
-.main__row_block2:before {
-   content: '';
-   display: block;
-   position: absolute;
-   top: 0px;
-   background: $color-brown;
-   height: 100%;
-   width: 100%;
-   right: 0rem;
-}
-.main__row_block3:before {
-   content: '';
-   display: block;
-   position: absolute;
-   top: 0px;
+   height: 60rem;
+   transition: 0.2s;
    background:$color-brown;
-   height: 100%;
-   width: 100%;
-   right: 0rem;
+   position: relative;
+   padding: 30px 0px 30px 30px;
+}
+.main__blur:hover{
+ background:$yellow-bluer;
 }
 .main__blur:hover  .main__bth__hover {
    opacity: 1;

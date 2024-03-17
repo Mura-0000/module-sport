@@ -140,7 +140,7 @@ h5 {
   text-transform: none;
   position: absolute;
   right: 0;
-  top: 52.8rem;
+  top: 55.8rem;
 }
 
 .main__bth__hover {
@@ -189,6 +189,9 @@ h5 {
   list-style-type: none;
   position: relative;
   right: 14rem;
+}
+.header-burger, .header_footer-burger {
+  display: none;
 }
 .header__nav a, .header_footer__nav a {
   right: 0;
@@ -354,7 +357,7 @@ h5 {
 
 .footer_nav {
   display: flex;
-  gap: 3rem;
+  gap: 5.4rem;
   transform: scale(1);
   transition: 0.3s;
   position: relative;
@@ -625,27 +628,16 @@ h5 {
 .main__row_block1 {
   background: url(../image/maraphon.png);
   height: 60rem;
-  position: relative;
-  padding: 30px 0px 30px 30px;
 }
 
 .main__row_block2 {
   background: url(../image/Vebinar\ 1.png);
   height: 59.8rem;
-  position: relative;
-  padding: 30px 0px 30px 30px;
 }
 
 .main__row_block3 {
   background: url(../image/oiga.jpg);
   height: 59.8rem;
-  position: relative;
-  padding: 30px 0px 30px 30px;
-}
-
-.main__blur {
-  position: relative;
-  transition: 0.2s;
 }
 
 .main__row_block1, .main__row_block2, .main__row_block3 {
@@ -654,37 +646,17 @@ h5 {
   background-position: center;
 }
 
-.main__row_block1:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0px;
-  background: linear-gradient(180deg, rgba(251, 241, 56, 0.3) 0%, rgba(253, 249, 182, 0) 100%);
-  height: 100%;
+.main__blur {
   width: 100%;
-  right: 0rem;
+  height: 60rem;
+  transition: 0.2s;
+  background: linear-gradient(180deg, rgba(251, 241, 56, 0.3) 0%, rgba(253, 249, 182, 0) 100%);
+  position: relative;
+  padding: 30px 0px 30px 30px;
 }
 
-.main__row_block2:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0px;
-  background: linear-gradient(180deg, rgba(251, 241, 56, 0.3) 0%, rgba(253, 249, 182, 0) 100%);
-  height: 100%;
-  width: 100%;
-  right: 0rem;
-}
-
-.main__row_block3:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0px;
-  background: linear-gradient(180deg, rgba(251, 241, 56, 0.3) 0%, rgba(253, 249, 182, 0) 100%);
-  height: 100%;
-  width: 100%;
-  right: 0rem;
+.main__blur:hover {
+  background: linear-gradient(180deg, rgb(251, 241, 56), rgba(253, 249, 182, 0) 60%);
 }
 
 .main__blur:hover .main__bth__hover {
@@ -895,7 +867,7 @@ ul.advantages-item {
   line-height: 140%;
 }
 
-@media (max-width: 2480px) {
+@media (max-width: 3000px) {
   .wrapper {
     width: 118%;
   }
@@ -949,8 +921,14 @@ ul.advantages-item {
   .container {
     max-width: 768px;
   }
+  .main__blur {
+    height: 34rem;
+  }
   .header__nav {
     display: none;
+  }
+  .header-burger {
+    display: block;
   }
   .header {
     padding-bottom: 5.9rem;
@@ -967,6 +945,9 @@ ul.advantages-item {
   }
   .text, .text__paragraph, h3, h4 {
     font-size: 1.6rem;
+  }
+  h4 {
+    margin-top: 0rem;
   }
   h3 {
     width: 14rem;
@@ -1002,21 +983,24 @@ ul.advantages-item {
     font-size: 1.4rem;
   }
   .main__bth {
-    left: -30px;
-    top: 245.5px;
+    left: 0px;
+    top: 275.5px;
   }
   .main__bth-mobail {
-    left: -30px;
-    top: 273px;
+    top: 303px;
   }
   .plus, .plus-olga {
     display: block;
     position: absolute;
-    top: 24.9rem;
+    top: 27.9rem;
     right: 0;
   }
   .plus-olga {
-    top: 27.6rem;
+    top: 30.6rem;
+  }
+  .main__bth__hover {
+    font-size: 1.4rem;
+    width: 16rem;
   }
   .main__bth, .main__bth-mobail {
     font-size: 1.2rem;
@@ -1060,7 +1044,12 @@ ul.advantages-item {
   .main__grid__item:nth-child(4) {
     grid-column: 2/3;
     grid-row: 1/2;
-    height: 101.5%;
+    height: 98.5%;
+    margin-top: 3px;
+  }
+  .main__box-yellow {
+    padding: 0px 0px 0px 0px;
+    margin-top: -4rem;
   }
   .main__grid__item:nth-child(5) {
     grid-column: 2/2;
@@ -1125,7 +1114,7 @@ ul.advantages-item {
     justify-content: end;
   }
   .footer_nav a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .footer__main {
     display: flex;
@@ -1179,6 +1168,9 @@ ul.advantages-item {
     margin-left: 8rem;
     width: 72%;
   }
+  h4 {
+    font-size: 1.4rem;
+  }
 }
 @media (max-width: 590px) {
   .container {
@@ -1221,7 +1213,13 @@ ul.advantages-item {
   .main__grid__item, .main__grid__item:nth-child(4) {
     height: 14rem;
   }
-  .main__box {
+  .main__grid__item:nth-child(4) {
+    background: transparent;
+    box-shadow: none;
+    border: solid 1px rgb(43, 53, 65);
+    opacity: 1;
+  }
+  .main__box, .main__box-yellow {
     display: flex;
     gap: 17px;
     margin-top: -3rem;
@@ -1302,7 +1300,6 @@ ul.advantages-item {
     height: 28px;
   }
   h4 {
-    font-size: 1.4rem;
     padding-top: 1rem;
   }
   .form-email-bth__modil {
@@ -1315,10 +1312,10 @@ ul.advantages-item {
     width: 10rem;
   }
   .main__bth-mobail {
-    top: 237px;
+    top: 267px;
   }
   .plus-olga {
-    top: 24rem;
+    top: 27rem;
   }
   .footer__item-mobaol {
     display: block;
@@ -1344,6 +1341,13 @@ ul.advantages-item {
   .main__grid__item:nth-child(3):hover {
     background: linear-gradient(180deg, #fbf138 0%, #fdf9b6 100%);
   }
+  .main__grid__item:nth-child(4) {
+    transform: scale(1);
+    transition: 0.3s;
+  }
+  .main__grid__item:nth-child(4):hover {
+    background: linear-gradient(180deg, #fbf138 0%, #fdf9b6 100%);
+  }
   .main__grid__item:nth-child(5) {
     transform: scale(1);
     transition: 0.3s;
@@ -1358,8 +1362,11 @@ ul.advantages-item {
   .main__grid__item:nth-child(6):hover {
     background: linear-gradient(180deg, #fbf138 0%, #fdf9b6 100%);
   }
+  .footer_nav {
+    gap: 3.4rem;
+  }
 }
-@media (max-width: 360px) {
+@media (max-width: 370px) {
   .title, .description, h2, .title_main_grig {
     font-size: 2.2rem;
     width: 30rem;
@@ -1368,7 +1375,10 @@ ul.advantages-item {
     width: 295px;
   }
   .footer-info {
-    right: 24rem;
+    right: 28rem;
+  }
+  .footer-info a {
+    font-size: 1.2rem;
   }
   .footer_nav {
     gap: 2.5rem;
@@ -1385,5 +1395,16 @@ ul.advantages-item {
   }
   .header__icon {
     gap: 2rem;
+  }
+}
+@media (max-width: 355px) {
+  .footer_nav {
+    gap: 2.4rem;
+  }
+  .footer_nav a {
+    font-size: 1.2rem;
+  }
+  .footer-info {
+    right: 25rem;
   }
 }/*# sourceMappingURL=stail.css.map */
