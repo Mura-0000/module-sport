@@ -128,7 +128,7 @@ h3{
   height: 46rem;
 }
 .main {
-  padding: 10rem 0rem;
+  padding: 4rem 0rem;
 }
 .main__row {
   grid-template-columns: repeat(2, 1fr);
@@ -358,7 +358,7 @@ h4 {
 .img {
   height: 281px;
   width: 340px;
-  transform: translate(0%, 90px);
+  transform: translate(0%, 70px);
 }
 .box__Rectangle {
   height: 216px;
@@ -533,6 +533,12 @@ svg{
 }
 .footer_nav {
   gap: 3.4rem;
+}
+.header {
+  padding-bottom: 2.9rem;
+}
+.description{
+  margin-bottom: 0.6rem;
 }
   }
   @media (max-width: 370px){
