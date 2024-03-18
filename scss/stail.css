@@ -262,8 +262,8 @@ h5 {
   margin-bottom: 4rem;
 }
 
-.margin-bottom_40px {
-  margin-bottom: -40rem;
+.margin-bottom-80px {
+  margin-bottom: 8rem;
 }
 
 .margin-bottom-20px {
@@ -666,6 +666,7 @@ h5 {
 }
 
 .wrap {
+  display: flex;
   gap: 9.2rem;
 }
 
@@ -1170,7 +1171,6 @@ ul.advantages-item {
     display: none;
   }
   .wrap {
-    height: 73rem;
     gap: 0rem;
   }
   .text__aside {
@@ -1255,15 +1255,15 @@ ul.advantages-item {
   .wrap {
     gap: 1rem;
   }
-  .trainer-img, .trainer:before {
-    height: 40%;
-  }
   .form-email-bth__modil {
     margin-left: 8rem;
     width: 72%;
   }
   h4 {
     font-size: 1.4rem;
+  }
+  .trainer-img, .trainer:before {
+    height: 80%;
   }
 }
 @media (max-width: 590px) {
@@ -1326,10 +1326,6 @@ ul.advantages-item {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    height: 100rem;
-  }
-  .trainer-img, .trainer:before {
-    height: 100%;
   }
   .main__row__aside {
     grid-template-columns: repeat(1, 1fr);

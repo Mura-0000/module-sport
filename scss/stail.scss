@@ -234,7 +234,6 @@ font-size:$font-size-paragraph-2 ;
  }
 //  aside
  .wrap{
-  height: 73rem;
   gap: 0rem;
  }
  .text__aside{
@@ -321,15 +320,16 @@ font-size:$font-size-paragraph-2 ;
 .wrap {
   gap: 1rem;
 }
-.trainer-img,.trainer:before {
-  height: 40%;
-}
+
 .form-email-bth__modil {
   margin-left: 8rem;
   width: 72%;
 }
 h4 {
   font-size:  $font-size-paragraph-2;
+}
+.trainer-img, .trainer:before {
+  height: 80%;
 }
   }
 
@@ -394,11 +394,8 @@ height: 14rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  height: 100rem;
 }
-.trainer-img, .trainer:before {
-  height: 100%;
-}
+
 .main__row__aside {
   grid-template-columns: repeat(1, 1fr);
   gap: 4rem 0rem;
