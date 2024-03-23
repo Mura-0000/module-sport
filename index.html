@@ -20,12 +20,13 @@
    <div class="container">
       <div class="header">
      <div class="header_item">
-       <img src="image/logo.svg" alt="image/logo">
+       <img src="image/logo.svg" alt="image/logo" class="header__logo">
+       <div class="header-burger">
+         <button class="burger" onclick="openModal()">
+         </button>
+      </div>
      </div>
-     <div class="header-burger">
-      <button class="burger" onclick="openModal()">
-      </button>
-   </div>
+    
      <ul class="header__nav">
       <li><a href="#main">Мероприятия</a></li>
       <li><a href="#schedule">Расписание</a></li>
@@ -123,7 +124,7 @@
 <section class="section">
       <div class="container">
       <div class="schedule" id="schedule">
-         <div class="main_flex margin-bottom-40px">
+         <div class="main_flex">
                <h2 class="title_main_grig">Расписание <br>тренировок</h2>
                <p class="text__paragraph">22-28 июня</p>
          </div>
@@ -139,7 +140,7 @@
                  <!-- 2 -->
             <div class="main__grid__item">
                <p class="text text_main">24 июня, 10:00</p>
-               <div class="main__box">
+               <div class="main__box main__box-2">
                   <img class="main-img margin-bottom-40px" src="image/bottle.svg" alt="bottle">
                   <h4 class="main_title_grud">Body sculpt</h4>
                </div>
@@ -147,7 +148,7 @@
                <!-- 3 -->
             <div class="main__grid__item">
                <p class="text text_main">26 июня, 11:00</p>
-               <div class="main__box">
+               <div class="main__box main__box-3">
                   <img class="main-img  margin-bottom-40px" src="image/dumbbell.svg" alt="dumbbell">
                   <h4 class="main_title_grud">L.A.B.</h4>
                </div>
@@ -163,7 +164,7 @@
                <!-- 5 -->
             <div class="main__grid__item">
                <p class="text text_main">25 июня, 11:00</p>
-               <div class="main__box">
+               <div class="main__box main__box-5 ">
                   <img class="main-img  margin-bottom-40px" src="image/heart.svg" alt="heart">
                   <h4 class="main_title_grud">Дыхательные практики</h4>
                </div>
@@ -171,7 +172,7 @@
                <!-- 6 -->
             <div class="main__grid__item">
                <p class="text text_main">27 июня, 10:00</p>
-               <div class="main__box">
+               <div class="main__box main__box-6">
                   <img class="main-img  margin-bottom-40px" src="image/weight.svg" alt="weight">
                   <h4 class="main_title_grud">Комплексная разминка</h4>
                </div>
@@ -185,7 +186,7 @@
    <div class="container">
       <div class="form">
       <div class="text-align-center margin-bottom-40px">
-         <h2 class="description gray__description  ">Подпишитесь на рассылку</h2>
+         <h2 class="description gray__description">Подпишитесь на рассылку</h2>
       </div>
        <div class="align-items ">
       <form action="#" class="form ">
