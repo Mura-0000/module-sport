@@ -1246,7 +1246,7 @@ padding: 3rem 0;
     width: 29.6rem;
   }
   .trainer:before {
-    height: 25%;
+    height: 50%;
   }
   .margin-bottom-16px {
     margin-bottom: 1.6rem;
@@ -1290,7 +1290,7 @@ padding: 3rem 0;
     gap: 2rem;
     position: relative;
     top: 0.5rem;
-    left: 1rem;
+    left: 0rem;
   }
   .footer-info {
     top: 2.5rem;
@@ -1551,7 +1551,8 @@ padding: 3rem 0;
     background: linear-gradient(180deg, #fbf138 0%, #fdf9b6 100%);
   }
   .footer_nav {
-    gap: 3.4rem;
+    gap: 5rem;
+    margin-bottom: 1rem;
   }
   .header {
     padding-bottom: 4.6rem;
@@ -1582,10 +1583,10 @@ padding: 3rem 0;
 }
 }
 @media (max-width: 370px) {
-  .title, .description, h2, .title_main_grig {
+  .description, h2, .title_main_grig {
     /* font-size: 2.2rem; */
     line-height: 140%;
-    width: 310px;
+    width: 280px;
     /* margin-bottom: 4rem; */
   }
   .header_item {
@@ -1600,21 +1601,21 @@ padding: 3rem 0;
   .footer-info a {
     font-size: 1.2rem;
   }
-  .footer_nav {
-    gap: 2.5rem;
-  }
-  
   .title_main_grig {
     width: 18rem;
   }
- 
   .header__icon {
     gap: 2rem;
   }
 }
+@media (max-width: 362px){
+  .footer_nav {
+    gap: 4.5rem;
+}
+}
 @media (max-width: 355px) {
   .footer_nav {
-    gap: 2.9rem;
+    gap: 4rem;
     top: 0rem;
     margin-bottom: -1rem;
   }
@@ -1624,7 +1625,29 @@ padding: 3rem 0;
   .footer-info {
     right: 25rem;
   }
+}
+@media (max-width: 340px) {
   .title{
     font-size: 2.2rem;
+    width: 293px;
+    margin-bottom: 2.3rem;
   }
-}/*# sourceMappingURL=stail.css.map */
+  .img {
+    width: 300px;
+}
+  }
+  @media (max-width: 340px){
+.footer_nav {
+  gap: 3.5rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
+.text_main {
+  font-size: 1.4rem;
+}
+.footer_nav a {
+  font-size: 1.1rem;
+}
+}
+/*# sourceMappingURL=stail.css.map */
